@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Table</title>
+</head>
+<body>
+    <h2>Are you sure you want to delete the table "{{ table.name }}"?</h2>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" style="color: red;">Yes, Delete</button>
+        <a href="{% url 'dashboard' %}">Cancel</a>
+    </form>
+</body>
+</html>
