@@ -7,6 +7,25 @@
 
 ## Purpose of the Software
 
+## System Overview
+
+**Enterprise-grade duty assignment system** with hierarchical approval workflow:
+PLANNERS (Create) → EDITORS (Modify) → AGENTS (Execute)
+
+
+Key Features:
+- Role-based access control
+- Full audit trail of all changes
+- Custom duty templates
+- Offline-capable interface
+- Comprehensive reporting
+
+| Role | Responsibilities | Actions |
+|------|-----------------|---------|
+| **PLANNERS** | Strategic assignment creation | • Create duty templates <br> • Set schedules <br> • Define requirements |
+| **EDITORS** | Operational adjustment | • Modify assignments <br> • Balance workloads <br> • Add instructions |
+| **AGENTS** | Task execution | • Confirm receipt <br> • View Tasks <br> • Report completion |
+
 ### Software Development Process
 This project uses the **Waterfall Software Development Process**.
 
