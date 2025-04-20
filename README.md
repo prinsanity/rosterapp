@@ -28,6 +28,27 @@ Key Features:
 | **EDITORS** | Operational adjustment | • Modify assignments <br> • Balance workloads <br> • Add instructions |
 | **AGENTS** | Task execution | • Confirm receipt <br> • View Tasks <br> • Report completion |
 
+## Algorithm
+
+### Workflow Algorithm
+1. **Planning Role**:
+   - Creates a new project.
+   - Defines the table structure (columns/rows).
+   - Saves the project and sends it to the Editor.
+
+2. **Editor Role**:
+   - Receives the project from Planning.
+   - Makes updates to the project.
+   - Saves the updated project and sends it to the Viewer.
+
+3. **Viewer Role**:
+   - Views the finalized project sent by the Editor.
+
+4. **Permission Enforcement**:
+   - Access is restricted based on user roles using Django's `Group` system.
+
+---
+
 ### Software Development Process
 This project uses the **Waterfall Software Development Process**.
 
@@ -35,11 +56,6 @@ This project uses the **Waterfall Software Development Process**.
 - **Clear Requirements**: The project had well-defined requirements from the beginning, making Waterfall an ideal choice.
 - **Sequential Phases**: Each phase (Requirement Gathering, Design, Development, Testing, Deployment) was completed before moving to the next, ensuring a structured and predictable development process.
 - **High-Quality Output**: Since there are no competitors for this specific system, the focus was on delivering a polished and high-quality product.
-
-### Possible Usage of the Software (Target Market)
-- **Small and Medium Enterprises (SMEs)**: Teams in SMEs can use this tool to structure workflows between planners, editors, and viewers.
-- **Educational Institutions**: Professors or course coordinators can use the system to delegate tasks and monitor progress.
-- **Freelance Teams**: Freelancers can use this platform to manage projects requiring a structured workflow.
 
 ---
 
@@ -62,26 +78,7 @@ This project was developed by a **single developer**, handling all roles and res
 
 ---
 
-## Algorithm
 
-### Workflow Algorithm
-1. **Planning Role**:
-   - Creates a new project.
-   - Defines the table structure (columns/rows).
-   - Saves the project and sends it to the Editor.
-
-2. **Editor Role**:
-   - Receives the project from Planning.
-   - Makes updates to the project.
-   - Saves the updated project and sends it to the Viewer.
-
-3. **Viewer Role**:
-   - Views the finalized project sent by the Editor.
-
-4. **Permission Enforcement**:
-   - Access is restricted based on user roles using Django's `Group` system.
-
----
 
 ## Current Status of the Software
 - **Completed Features**:
