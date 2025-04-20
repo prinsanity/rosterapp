@@ -1,7 +1,9 @@
 # Role-Based Project Management System
 
 ## Graphical Abstract
-![Graphical Abstract](path/to/graphical_abstract.png)  
+![editing_table](imgs/create_table.png)  
+![dashboard](imgs/dashboard.png)  
+![viewing_table](imgs/view_table.png)  
 
 ---
 
@@ -10,7 +12,7 @@
 ## System Overview
 
 **Enterprise-grade duty assignment system** with hierarchical approval workflow:
-PLANNERS (Create) → EDITORS (Modify) → AGENTS (Execute)
+PLANNERS **[Pxxx]** (Create) → EDITORS **[Exxx]** (Modify) → AGENTS **[Vxxx]** (Execute)
 
 
 Key Features:
