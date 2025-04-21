@@ -104,7 +104,7 @@ This project was developed by a **single developer**, handling all roles and res
 
 ## Demo
 A demo of the project is available on YouTube:  
-https://www.youtube.com/watch?v=VIDEO_ID](https://youtu.be/P_Gqx9d3B-o?si=1mssqPPtWIe4EhuM 
+[https://youtu.be/P_Gqx9d3B-o?si=1mssqPPtWIe4EhuM](https://www.youtube.com/watch?v=P_Gqx9d3B-o)
 
 ---
 
